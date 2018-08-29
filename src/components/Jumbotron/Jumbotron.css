@@ -7,6 +7,7 @@
     margin-bottom: 10px;
     background-color: lightgray; 
     clear: "both";
-    
+    background-image:url('https://mliu0506.github.io/clicky-game/public/images/headerbg.jpeg');
+    z-index: 99;
   }
   

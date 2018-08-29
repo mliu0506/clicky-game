@@ -9,7 +9,7 @@ import "./App.css";
 
 let correctGuesses = 0;
 let bestScore = 0;
-let clickMessage = "Click on an image to begin Game.";
+let clickMessage = "Click on an image to earn points, but don't click on any more than once!";
 
 
 class App extends Component {
@@ -106,7 +106,7 @@ class App extends Component {
 
 
         <Jumbotron >
-        <h1>Clicky Game</h1>
+        <h1>Clicky Game!</h1>
 
           <span  className="scoreSummary">
               {this.state.clickMessage} 
